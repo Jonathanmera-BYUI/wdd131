@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) {
+
+    #menu {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 1rem 2rem;
+    }
+
+    nav {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin-top: 0;
+    margin-left: auto;
+    gap: 1.5rem;
+}
+
+    nav a {
+        text-decoration: none;
+        color: white;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    h1 {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+}
