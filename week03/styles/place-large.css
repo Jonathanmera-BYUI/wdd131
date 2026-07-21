@@ -1,0 +1,28 @@
+@media screen and (min-width: 1000px) {
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    .data {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        width: 230px;
+    }
+
+    .weather {
+        position: absolute;
+        bottom: 25px;
+        right: 25px;
+        width: 230px;
+    }
+
+    .weather h2::after {
+        content: " ⛅";
+    }
+
+    .weather img {
+        display: none;
+    }
+}
